@@ -6,5 +6,5 @@ arch:
     - arm64-graviton-2
 
 install:
-    - which cmake
-    - file $(which cmake)
+    - which -a cmake
+    - which -a cmake | xargs file
