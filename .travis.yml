@@ -1,5 +1,6 @@
 os: linux
 dist: focal
+language: python
 
 arch:
     - arm64-graviton-2
