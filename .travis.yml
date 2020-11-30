@@ -3,7 +3,7 @@ dist: focal
 language: python
 
 arch:
-    - arm64-graviton-2
+    - arm64-graviton2
 
 install:
     - sudo apt-get update && sudo apt-get install cmake
